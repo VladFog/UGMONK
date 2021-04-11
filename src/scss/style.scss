@@ -1,0 +1,19 @@
+body {
+    font-size: 30px;
+    display: flex;
+}
+
+span {
+    font-size: 20px;
+    @media(max-width: 777px) {
+        font-size: 15px;
+    }
+}
+
+div {
+    background-image: url("/src/img/leonardo-arantes-EMcnMtAHymA-unsplash.jpg");
+    font-size: 20px;
+    @media(max-width: 777px) {
+        font-size: 15px;
+    }
+}
