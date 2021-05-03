@@ -1,0 +1,37 @@
+.menu__body {
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+.menu__list,
+.menu__list-left,
+.menu__list-right 
+{
+    display: flex;
+}
+
+.menu__list-left,
+.menu__list-right {
+    list-style-type: none;
+    margin: .75rem;
+}
+
+.menu__list-left {
+    width: 60%;
+    font-size: 16px;
+}
+
+.menu__list-right {
+    justify-content: flex-end;
+    width: 30%;
+    font-size: 14px;
+}
+
+.menu__link {
+    text-decoration: none;
+    padding:  2rem 2rem 2rem 0;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
